@@ -1,3 +1,4 @@
+
 import streamlit as st
 import PyPDF2
 import openai
@@ -6,7 +7,7 @@ import openai
 st.title("PDF Chatbot")
 st.write("Upload a PDF File, ask questions")
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 #Function extract text from pdf
 def extract_text_from_pdf(pdf_file):
