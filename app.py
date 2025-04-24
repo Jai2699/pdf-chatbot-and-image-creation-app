@@ -7,7 +7,7 @@ import openai
 st.title("PDF Chatbot")
 st.write("Upload a PDF File, ask questions")
 
-openai.api_key = "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"
+openai.api_key = "write_your_api_key"
 
 #Function extract text from pdf
 def extract_text_from_pdf(pdf_file):
